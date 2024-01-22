@@ -356,7 +356,7 @@
 }
 
 .caption__bg-text {
-    background: url('assets/img/caption-text.png');
+    background: url('../img/caption-text.png');
     position: sticky;
     left: 0;
     bottom: 0;
@@ -460,7 +460,7 @@
 .technique__establish {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: url('assets/img/establish.png');
+    background-image: url('../img/establish.png');
 }
 
 .technique__establish-title {
@@ -544,7 +544,7 @@
 }
 
 .service__background {
-    background-image: url('assets/img/bg-service.png');
+    background-image: url('../img/bg-service.png');
     display: flex;
     align-items: center;
     background-position: 40% 55%;
@@ -663,7 +663,7 @@
 
 /* section shareholder */
 .shareholder-bg {
-    background-image: url('assets/img/shareholder.jpg');
+    background-image: url('../img/shareholder.jpg');
     padding: 40px 0;
 }
 
@@ -747,7 +747,7 @@
 /* for-shareholder */
 
 .shareholder-bg-first {
-    background-image: url('assets/img/for-shareholder.png');
+    background-image: url('../img/for-shareholder.png');
     padding: 25px 25px;
     display: flex;
     justify-content: space-between;
@@ -783,7 +783,7 @@
 }
 
 .shareholder-bg-second {
-    background-image: url('assets/img/document.png');
+    background-image: url('../img/document.png');
     padding: 25px 25px;
     display: flex;
     justify-content: space-between;
@@ -898,7 +898,7 @@
 
 /* news - event */
 .event-bg {
-    background-image: url('assets/img/event.png');
+    background-image: url('../img/event.png');
     padding: 30px 0;
     background-size: cover;
 }
@@ -1242,7 +1242,7 @@
     top: 38px;
     right: 95%;
     z-index: 11;
-    background: url('assets/img/arrow-footer-bottom.png');
+    background: url('../img/arrow-footer-bottom.png');
     width: 80px;
     height: 80px;
 }
