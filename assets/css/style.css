@@ -163,6 +163,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .nav__input:checked~.nav__overlay {
