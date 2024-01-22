@@ -356,7 +356,7 @@
 }
 
 .caption__bg-text {
-    background: url(../img/caption-text.png);
+    background-image: url(../img/caption-text.png);
     position: sticky;
     left: 0;
     bottom: 0;
@@ -898,7 +898,7 @@
 
 /* news - event */
 .event-bg {
-    background-image: url../img/event.png);
+    background-image: url(../img/event.png);
     padding: 30px 0;
     background-size: cover;
 }
@@ -1242,7 +1242,7 @@
     top: 38px;
     right: 95%;
     z-index: 11;
-    background: url(../img/caption-text.png);
+    background-image: url(../img/caption-text.png);
     width: 80px;
     height: 80px;
 }
