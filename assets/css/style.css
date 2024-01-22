@@ -779,6 +779,7 @@
     background-image: linear-gradient(var(--white-color), var(--white-color));
     background-position: 50% calc(100% - var(--bottom-distance));
     transition: background-size 0.3s;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .shareholder-report-item a:hover span {
