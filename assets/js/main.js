@@ -1,3 +1,8 @@
+// load header and footer
+$(function () {
+  $('#header').load('header.html');
+  $('#footer').load('footer.html');
+});
 // banner
 const swiper = new Swiper('.swiper-1', {
   // autoplay: {
