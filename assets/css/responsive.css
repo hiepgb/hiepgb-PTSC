@@ -27,7 +27,266 @@
     .button-event .swiper-button-next {
         right: auto;
     }
+
+
 }
+
+@media (min-width: 75em) {
+    .header-item:first-child::before {
+        width: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        background-image: linear-gradient(#5bcbf5, #5bcbf5);
+    }
+
+    .header-item:first-child:hover::before {
+        background-size: 100% 100%;
+    }
+
+    /* certified */
+    .certified__bg .swiper-2 {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile & tablet */
+/* @media (max-width: 79.9375em) {
+    :root {
+        --header-height: 68px;
+        --navbar-height: 0px;
+    }
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .header {
+        height: 70px;
+    }
+
+    .header__content {
+        height: 55px;
+    }
+
+    .header__logo svg {
+        max-width: 94px;
+        max-height: 55px;
+    }
+
+    .caption__title {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .nav-mobile-menu {
+        display: flex;
+    }
+
+    .section {
+        padding-top: 30px;
+    }
+
+    .section__bg {
+        padding-bottom: 30px;
+    }
+
+    .main__title {
+        margin: 0 0 30px 0;
+    }
+
+    .main-slide,
+    .service__content {
+        display: none;
+    }
+
+    .button-content-services {
+        display: none;
+    }
+
+    .main-swiper {
+        display: block;
+    }
+
+    .service__background {
+        background-size: cover;
+        background-position: center center;
+        overflow: hidden;
+        height: unset;
+    }
+
+    .main-swiper .swiper-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-bottom: 15px;
+        margin-left: auto;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, .1);
+        border-radius: 50%;
+        background: #fff;
+        width: 160px;
+        height: 160px;
+        overflow: hidden;
+    }
+
+    .swiper-image .image-slider {
+        position: unset;
+        transition: all .2s ease-in-out;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+} */
+
+/* Tablet */
+/* @media (min-width: 46.25em) and (max-width: 79.9375em) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .news__title {
+        font-size: 2.6rem;
+        margin-top: 68px;
+    }
+
+    .slide__vertical {
+        padding-left: 0;
+        height: 150px;
+    }
+
+    .news__item-time::before {
+        height: 40px;
+    }
+
+    .news__item-title {
+        -webkit-line-clamp: 2;
+        line-height: 2rem;
+    }
+
+    .main__title {
+        font-size: 2.4rem;
+    }
+
+    .technique__establish-title {
+        font-size: 1.6rem;
+    }
+
+    .technique__establish-item--count {
+        font-size: 2.8rem;
+    }
+
+    .technique__establish-item--title {
+        font-size: 1.4rem;
+    }
+
+    .technique__establish-item--vnd {
+        font-size: 1.2rem;
+    }
+
+    .wide .l-4 {
+        max-width: 100%;
+    }
+
+    .main-swiper .swiper-container {
+        position: relative;
+    }
+
+    .button-services {
+        text-align: center;
+    }
+
+    .swiper-caption .title {
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 0;
+        line-height: 2rem;
+        min-height: 46px;
+        font-weight: 300;
+    }
+
+    .swiper-caption {
+        min-height: 240px;
+    }
+
+    .swiper-caption .description {
+        font-size: 1.4rem;
+        color: #666;
+        line-height: 1.8rem;
+    }
+
+    .caption__text-right::before {
+        right: -50%;
+    }
+
+    .project-description p {
+        font-size: 1.5rem;
+    }
+
+    .shareholder-news {
+        padding: 8px 8px;
+        height: 484px;
+    }
+
+    .news-item a {
+        font-size: 1.2rem;
+    }
+
+    .shareholder-bg-first {
+        padding: 8px 25px;
+    }
+
+    .shareholder-bg-second {
+        height: 209px;
+        margin-top: 64px;
+        padding: 8px 25px;
+
+    }
+
+    .share {
+        height: 483px;
+        padding: 8px 8px;
+    }
+
+    .quote-count {
+        font-size: 2.5rem;
+    }
+
+    .quote-value-high {
+        font-size: 2.5rem;
+    }
+
+    .quote-value-low {
+        font-size: 1.2rem;
+    }
+
+    #chart {
+        margin-top: 68px;
+    }
+
+    .event__caption-new {
+        min-width: 260px;
+        font-size: 1.4rem;
+    }
+
+    .button-event .swiper-button-prev {
+        left: -32px;
+        top: 50%;
+    }
+
+    .button-event .swiper-button-next {
+        right: -32px;
+        top: 50%;
+    }
+} */
+
+/* Mobile 47.92 46.1875*/
+/* @media (max-width: 47.92em) {
+    .hide-on-mobile {
+        display: none;
+    }
+} */
 
 /* 1024px 64em -> 1279px 79.9375em */
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -231,6 +490,99 @@
     .button-unit .swiper-button-prev {
         position: unset;
     }
+
+    /* introduce */
+    .content__introduce--title {
+        font-size: 3rem;
+        padding-right: 40px;
+        height: calc(100% + 10px);
+    }
+
+    .main__title-introduce {
+        margin: 0 0 30px 0;
+        font-size: 2.8rem;
+    }
+
+    .title__child {
+        font-size: 1.6rem;
+    }
+
+    .title__description {
+        font-size: 1.6rem;
+    }
+
+    .count {
+        font-size: 2.2rem;
+    }
+
+    .caption__title {
+        font-size: 1.6rem;
+    }
+
+    .content__vision--mission {
+        position: relative;
+    }
+
+    .box__vision {
+        max-width: 100%;
+    }
+
+    .about__vision img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .title__vision {
+        font-size: 2rem;
+    }
+
+    .description__vision {
+        font-size: 1.6rem;
+    }
+
+    .history__caption {
+        padding: 25px;
+    }
+
+    .year__description {
+        font-size: 1.6rem;
+    }
+
+    .value__description p,
+    .value__description--trust p,
+    .value__description--sustainable p,
+    .value__description--creative p {
+        max-height: 100%;
+        overflow: visible;
+        opacity: 1;
+    }
+
+    .thumb__year {
+        font-size: 1.6rem;
+    }
+
+    .box__content {
+        position: relative;
+        background-color: var(--white-color);
+        padding: 10px 6px;
+    }
+
+    .content__title {
+        color: var(--text-color);
+    }
+
+    .content__description {
+        color: #999;
+    }
+
+    .content__description {
+        font-size: 1.2rem;
+    }
+
+    .button__content {
+        height: 100%;
+        opacity: 1;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1239px) {
@@ -293,6 +645,41 @@
 
     .box__section-description p {
         margin: 30px 0 30px 0;
+    }
+
+    .content__title {
+        font-size: 1.2rem;
+    }
+
+    .value__title-en {
+        font-size: 2.3rem;
+    }
+
+    .value__title-vn {
+        font-size: 1.5rem;
+    }
+
+    .value__description p,
+    .value__description--trust p,
+    .value__description--sustainable p,
+    .value__description--creative p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .button__certified {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button__certified .swiper-button-prev,
+    .button__certified .swiper-button-next {
+        position: relative;
+    }
+
+    .leadership__tab-heading {
+        font-size: 1.6rem;
     }
 }
 
@@ -629,6 +1016,120 @@
 
     .button-event .swiper-button-next {
         right: auto;
+    }
+
+    .content__introduce--title {
+        font-size: 1.8rem;
+        padding-right: 20px;
+        height: calc(100% + 10px);
+    }
+
+    .content__introduce--list {
+        font-size: 1.4rem;
+    }
+
+    .main__title-introduce {
+        margin: 0 0 30px 0;
+        font-size: 2.8rem;
+    }
+
+    .title__background {
+        margin-top: 20px;
+    }
+
+    .title__child,
+    .title__description {
+        font-size: 1.6rem;
+    }
+
+    .content__vision--mission {
+        position: relative;
+    }
+
+    .box__vision {
+        max-width: 100%;
+    }
+
+    .about__vision img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .title__vision {
+        font-size: 2rem;
+    }
+
+    .description__vision {
+        font-size: 1.2rem;
+    }
+
+    .value__content {
+        margin-top: 15px;
+    }
+
+    .value__description p,
+    .value__description--trust p,
+    .value__description--sustainable p,
+    .value__description--creative p {
+        max-height: 100%;
+        opacity: 1;
+        overflow: visible;
+    }
+
+    .button__certified {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button__certified .swiper-button-prev,
+    .button__certified .swiper-button-next {
+        position: relative;
+    }
+
+    .leadership__tab-heading {
+        font-size: 1.8rem;
+    }
+
+    .leadership__image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .leadership__name {
+        font-size: 2rem;
+    }
+
+    .leadership__job {
+        font-size: 1.4rem;
+    }
+
+    .leadership__description p {
+        font-size: 1.6rem;
+    }
+
+    .box__content {
+        position: relative;
+        background-color: var(--white-color);
+        padding: 10px 6px;
+    }
+
+    .content__title {
+        color: var(--text-color);
+        font-size: 1.3rem;
+    }
+
+    .content__description {
+        color: #999;
+    }
+
+    .content__description {
+        font-size: 1.2rem;
+    }
+
+    .button__content {
+        height: 100%;
+        opacity: 1;
     }
 }
 
@@ -970,6 +1471,183 @@
     .information__copy-right p {
         font-size: 1.4rem;
     }
+
+    /* introduce */
+    .image__introduce {
+        padding-top: 66.66667%;
+    }
+
+    .content__introduce--title {
+        font-size: 1.6rem;
+        height: calc(100% + 10px);
+        padding-right: 20px;
+    }
+
+    .content__introduce--list {
+        font-size: 1.4rem;
+    }
+
+    .main__title-introduce {
+        margin: 0 0 30px 0;
+        font-size: 2rem;
+    }
+
+    .title__child,
+    .title__description {
+        font-size: 1.4rem;
+    }
+
+    .title__description {
+        margin-bottom: 10px;
+    }
+
+    .content__vision--mission {
+        position: relative;
+    }
+
+    .box__vision {
+        max-width: 100%;
+    }
+
+    .about__vision img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .title__vision {
+        font-size: 1.8rem;
+    }
+
+    .description__vision {
+        font-size: 1rem;
+    }
+
+    .history__year .swiper-button-prev,
+    .history__year .swiper-button-next {
+        font-size: 4.5rem;
+    }
+
+    .year__text {
+        font-size: 3rem;
+        line-height: 8rem;
+    }
+
+    .year__text:after {
+        top: 65%;
+    }
+
+    .year__description {
+        font-size: 1.3rem;
+    }
+
+    .button__history {
+        margin-top: 60px;
+    }
+
+    .value__content {
+        margin-top: 10px;
+    }
+
+    .value__caption {
+        padding: 5px;
+    }
+
+    .value__title-en {
+        font-size: 2rem;
+    }
+
+    .value__title-vn {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .value__description p,
+    .value__description--trust p,
+    .value__description--sustainable p,
+    .value__description--creative p {
+        max-height: 100%;
+        opacity: 1;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .leadership__tab-item {
+        margin: 0 10px;
+    }
+
+    .content__image:hover .button__content {
+        height: unset;
+    }
+
+    .leadership__tab-heading {
+        font-size: 1.2rem;
+    }
+
+    .active .leadership__tab-heading::before {
+        top: -14px;
+    }
+
+    .leadership__name {
+        font-size: 2.6rem;
+        text-align: center;
+    }
+
+    .leadership__job {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .leadership__line {
+        width: 100%;
+    }
+
+    .leadership__description p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .box__content {
+        position: relative;
+        background-color: var(--white-color);
+    }
+
+    .content__title {
+        font-size: 1.2rem;
+        height: 34px;
+        color: var(--text-color);
+    }
+
+    .content__description {
+        font-size: 1rem;
+        color: #999;
+    }
+
+    .button__content {
+        height: 100%;
+        opacity: 1;
+    }
+
+    .btn {
+        min-width: 130px;
+        height: 35px;
+    }
+
+    .button__certified {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button__certified .swiper-button-prev,
+    .button__certified .swiper-button-next {
+        position: relative;
+    }
+
+    .certified__image {
+        padding-top: 50.88889%;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -1011,7 +1689,6 @@
     }
 
     .main__title {
-        margin: 0;
         margin: 0 0 30px 0;
     }
 
@@ -1034,5 +1711,143 @@
 
     .button-unit {
         margin: -8px 0 0 20px;
+    }
+
+    /* introduce */
+    .image__introduce {
+        padding-top: 66.66667%;
+    }
+
+    .main__title-introduce {
+        line-height: 3rem;
+        font-size: 1.6rem;
+    }
+
+    .title__child,
+    .title__description {
+        font-size: 1.2rem;
+    }
+
+    .count {
+        font-size: 2.4rem;
+    }
+
+    .caption__title {
+        font-size: 1.2rem;
+    }
+
+    .title__vision {
+        font-size: 1.4rem;
+    }
+
+    .about__vision+.about__vision {
+        margin-top: 30px;
+    }
+
+    .value__title-en {
+        font-size: 1.4rem;
+    }
+
+    .value__title-vn {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .value__description p,
+    .value__description--trust p,
+    .value__description--sustainable p,
+    .value__description--creative p {
+        max-height: 100%;
+        opacity: 1;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .history__caption {
+        padding: 10px 20px;
+    }
+
+    .year__text {
+        font-size: 1.8rem;
+        line-height: 8rem;
+    }
+
+    .year__text:after {
+        top: 59%;
+    }
+
+    .year__description {
+        font-size: 1.3rem;
+        text-align-last: center;
+    }
+
+    .year__description p {
+        line-height: 1.8rem;
+    }
+
+    .button__history {
+        margin-top: 60px;
+    }
+
+    .leadership__tab-item {
+        margin: 0 8px;
+    }
+
+    .leadership__tab-heading {
+        font-size: 1rem;
+    }
+
+    .leadership__image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .leadership__name {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .leadership__job {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .leadership__line {
+        width: 100%;
+    }
+
+    .leadership__description p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .box__content {
+        position: relative;
+        background-color: var(--white-color);
+    }
+
+    .content__title {
+        font-size: 1rem;
+        color: var(--text-color);
+        margin: 0;
+        height: 34px;
+    }
+
+    .content__description {
+        font-size: 0.8rem;
+        color: #999;
+        line-height: 1.2rem;
+        height: 25px;
+    }
+
+    .button__content {
+        opacity: 1;
+        height: 50px;
+    }
+
+    .btn {
+        min-width: 110px;
+        height: 40px;
+        font-size: 1.3rem;
     }
 }
