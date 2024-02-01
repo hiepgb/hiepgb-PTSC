@@ -115,7 +115,7 @@
 }
 
 .title__background {
-    background-image: url(/assets/img/title-backgorund.png);
+    background-image: url(../img/title-backgorund.png);
     background-size: cover;
     background-position: center center;
     padding: 30px 30px;
@@ -213,7 +213,7 @@
 
 .history__caption {
     position: relative;
-    background-image: url(/assets/img/img-history.png);
+    background-image: url(../img/img-history.png);
     background-size: cover;
     background-position: center center;
     padding: 40px 40px 25px;
@@ -479,7 +479,7 @@
 }
 
 .leadership__bg {
-    background-image: url(/assets/img/leadership-bg.png);
+    background-image: url(../img/leadership-bg.png);
     background-size: cover;
     background-position: center center;
 }
@@ -603,7 +603,7 @@
 
 /* certified */
 .certified__bg {
-    background-image: url(/assets/img/certified-bg.png);
+    background-image: url(../img/certified-bg.png);
     padding: 50px 0;
     background-size: cover;
 }
