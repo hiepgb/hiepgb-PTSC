@@ -20,6 +20,9 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Jquery -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
@@ -1415,7 +1418,8 @@
                                     <div class="swiper-slide">
                                         <div class="certified__box">
                                             <div class="certified__image">
-                                                <a href="" class="certified__link">
+                                                <a href="assets/img/chung-nhan-1.png" data-fancybox="certified-1"
+                                                    class="certified__link">
                                                     <img src="assets/img/chung-nhan-1.png" alt="">
                                                 </a>
                                             </div>
@@ -1430,7 +1434,8 @@
                                     <div class="swiper-slide">
                                         <div class="certified__box">
                                             <div class="certified__image">
-                                                <a href="" class="certified__link">
+                                                <a href="assets/img/chung-nhan-2.png" data-fancybox="certified-2"
+                                                    class="certified__link">
                                                     <img src="assets/img/chung-nhan-2.png" alt="">
                                                 </a>
                                             </div>
@@ -1445,7 +1450,8 @@
                                     <div class="swiper-slide">
                                         <div class="certified__box">
                                             <div class="certified__image">
-                                                <a href="" class="certified__link">
+                                                <a href="assets/img/chung-nhan-3.png" data-fancybox="certified-3"
+                                                    class="certified__link">
                                                     <img src="assets/img/chung-nhan-3.png" alt="">
                                                 </a>
                                             </div>
@@ -1460,7 +1466,8 @@
                                     <div class="swiper-slide">
                                         <div class="certified__box">
                                             <div class="certified__image">
-                                                <a href="" class="certified__link">
+                                                <a href="assets/img/chung-nhan-4.png" data-fancybox="certified-4"
+                                                    class="certified__link">
                                                     <img src="assets/img/chung-nhan-4.png" alt="">
                                                 </a>
                                             </div>
@@ -1475,7 +1482,8 @@
                                     <div class="swiper-slide">
                                         <div class="certified__box">
                                             <div class="certified__image">
-                                                <a href="" class="certified__link">
+                                                <a href="assets/img/chung-nhan-5.png" data-fancybox="certified-5"
+                                                    class="certified__link">
                                                     <img src="assets/img/chung-nhan-5.png" alt="">
                                                 </a>
                                             </div>
@@ -1491,7 +1499,8 @@
                                     <div class="swiper-slide">
                                         <div class="certified__box">
                                             <div class="certified__image">
-                                                <a href="" class="certified__link">
+                                                <a href="assets/img/chung-nhan-6.png" data-fancybox="certified-6"
+                                                    class="certified__link">
                                                     <img src="assets/img/chung-nhan-6.png" alt="">
                                                 </a>
                                             </div>
@@ -1636,7 +1645,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
     integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<script src="./assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
     const sliderThumbnail = new Swiper('.slider-thumbnail', {
         freeMode: true,
@@ -1702,6 +1714,57 @@
             }
         },
     })
+
+    // click zoom image
+    $('[data-fancybox="certified-1"]').fancybox({
+        protect: true,
+        buttons: [
+            'zoom',
+            'fullScreen',
+            'close'
+        ]
+    });
+    $('[data-fancybox="certified-2"]').fancybox({
+        protect: true,
+        buttons: [
+            'zoom',
+            'fullScreen',
+            'close'
+        ]
+    });
+    $('[data-fancybox="certified-3"]').fancybox({
+        protect: true,
+        buttons: [
+            'zoom',
+            'fullScreen',
+            'close'
+        ]
+    });
+    $('[data-fancybox="certified-4"]').fancybox({
+        protect: true,
+        buttons: [
+            'zoom',
+            'fullScreen',
+            'close'
+        ]
+    });
+    $('[data-fancybox="certified-5"]').fancybox({
+        protect: true,
+        buttons: [
+            'zoom',
+            'fullScreen',
+            'close'
+        ]
+    });
+    $('[data-fancybox="certified-6"]').fancybox({
+        protect: true,
+        buttons: [
+            'zoom',
+            'fullScreen',
+            'close'
+        ]
+    });
+
     $(function () {
         $('.btn-position')
             .on('mouseenter', function (e) {
@@ -1737,6 +1800,6 @@
         };
     });
 </script>
-<script src="./assets/js/main.js"></script>
+
 
 </html>

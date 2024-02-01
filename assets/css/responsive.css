@@ -1544,6 +1544,10 @@
         font-size: 1.3rem;
     }
 
+    .year__description p {
+        line-height: 2.2rem;
+    }
+
     .button__history {
         margin-top: 60px;
     }
@@ -1653,7 +1657,7 @@
     }
 
     .certified__image {
-        padding-top: 90%;
+        padding-top: 50.88889%;
     }
 
 }
