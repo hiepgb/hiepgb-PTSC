@@ -17,7 +17,7 @@
 }
 
 .caption__bg-text {
-    background: url(/assets/img/caption-text.png);
+    background-image: url(../img/caption-text.png);
     position: sticky;
     left: 0;
     bottom: 0;
