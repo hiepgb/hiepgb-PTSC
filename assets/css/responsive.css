@@ -1162,6 +1162,10 @@
         line-height: 2.2rem;
     }
 
+    .img-with-caption {
+        padding-top: 66.66667%;
+    }
+
     .caption__bg-text {
         background-size: cover;
         background-position-x: right;
@@ -1569,6 +1573,10 @@
         opacity: 1;
         font-size: 1.2rem;
         line-height: 1.5rem;
+    }
+
+    .leadership__image img {
+        max-width: 100%;
     }
 
     .leadership__tab-item {
