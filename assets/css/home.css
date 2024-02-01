@@ -436,6 +436,7 @@
     color: var(--white-color);
     text-decoration: none;
     line-height: 2.6rem;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .shareholder-report-item a span {

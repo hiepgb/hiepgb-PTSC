@@ -437,6 +437,7 @@
     border: none;
     font-size: 1.4rem;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .footer__btn-subcribe span {
